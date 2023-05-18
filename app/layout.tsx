@@ -1,3 +1,4 @@
+import Footer from './Components/Footer/Footer'
 import Navbar from './Components/Navbar/Navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-[aliceblue] w-full min-h-screen`}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   )

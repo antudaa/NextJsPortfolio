@@ -3,6 +3,7 @@ import proPick from '../public/images/profile/developer-pic-1.png';
 import AnimatedText from './Components/AnimatedText/AnimatedText';
 import Link from 'next/link';
 import { Download } from './Components/Icons/Icons';
+import HireMe from './Components/HireMe/HireMe';
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <HireMe />
     </div>
   )
 }
